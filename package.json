@@ -1,0 +1,23 @@
+{
+  "name": "iframe-host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawooten/iframe-host.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawooten/iframe-host/issues"
+  },
+  "homepage": "https://github.com/pawooten/iframe-host#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}

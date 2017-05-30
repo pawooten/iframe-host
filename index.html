@@ -19,12 +19,18 @@
         height:80%;
       }
     </style>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript">
+
+    function onClick()
+    {
+      $('#urlIFrame').prop('src', $('#urlTextBox').val());
+    }
     </script>
   </head>
   <body>
     <input type="text" id="urlTextBox" />
-    <input type="button" value="Click" />
+    <input type="button" value="Click" onclick="onClick()" />
     <iframe id="urlIFrame" />
   </body>
 </html>
